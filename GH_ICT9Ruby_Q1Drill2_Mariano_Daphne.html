@@ -1,0 +1,118 @@
+			<!DOCTYPE html>
+			<html>
+			<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>Q1 Drill 2</title>
+
+							<!-- Google Font--> 
+							<link rel="preconnect" href="https://fonts.googleapis.com">
+						<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+						<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+						<style type="text/css">
+
+							body {
+								font-family: "Inter", sans-serif;
+  								font-optical-sizing: auto;
+  								font-style: normal;
+  			 					background-image: url("https://www.apple.com/v/apple-music/ae/images/overview/hero_static__d1gk3u36md26_large.jpg");
+								background-size: cover;
+								background-position: center;
+										}
+
+						 form {
+				 			background-color: ghostwhite;
+				 			background-size:cover;
+							width: 70%;
+							padding: 20px;
+							margin: 20% auto;
+							border-radius: 12px 12px 12px 12px;
+-webkit-border-radius: 12px 12px 12px 12px;
+-moz-border-radius: 12px 12px 12px 12px;
+box-shadow: 0px -1px 53px 12px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px -1px 53px 12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -1px 53px 12px rgba(0,0,0,0.75);
+border: 5px ridge #423e8a;
+
+
+				                         }
+								 
+						input[type="submit"], [type="reset"]
+							{ 
+       						 width: 152px;
+        					height: 2em;
+      					  	background: white;
+        					border: 1px solid #04699d;
+        					border-radius: 4px;
+        					color: greenyellow;
+        					font-size: inherit;
+        					flex: 0 1 8em;
+        					margin: 0 auto;
+				 			}
+
+			 </style>
+	  	 </head>
+			 <body>
+		    <form>
+
+							<header>
+							<h1 style="text-align:center;">Apple Music | Song Recommendation</h1>
+							</header>
+
+						 	<label for="fullname"><b>Your Name:</b></label><br>
+							<input type="fullname" name="fullname" placeholder="Enter your full name."><br>
+							<label for="email-addr"><b>Your Email:</b></label><br>
+							<input type="text" name="email-addr" placeholder="jane_doe@gmail.com"><br>
+							<label for="home address"><b>Recommended Music Title:</b></label><br>
+							<input type="text" name="music-title"><br>
+							<label for="deliveryinstructions"><b>Why do you recommend it?</b></label><br>
+							<textarea name="deliveryinstructions" rows="11" cols="95" maxlength="400">
+Feedback here...
+						 	</textarea>
+
+
+
+
+						<h3><b>Genres (Select all that apply..)</b></h3>
+						<input type="checkbox" id="genre1" name="genre1" value="pop">
+						<label for="genre1">Pop</label>
+						<input type="checkbox" id="genre2" name="genre2" value="shoegaze">
+						<label for="genre2">Shoegaze</label>
+						<input type="checkbox" id="genre3" name="genre3" value="jazz">
+						<label for="genre3">Jazz</label>
+						<input type="checkbox" id="genre4" name="genre4" value="rock">
+						<label for="genre4">Rock</label>
+						<input type="checkbox" id="genre5" name="genre5" value="classical">
+						<label for="genre5">Classical</label>
+						<input type="checkbox" id="genre6" name="genre6" value="alternative">
+						<label for="genre6">Alternative</label>
+						<input type="checkbox" id="genre7" name="genre7" value="rhythmandblues">
+						<label for="genre6">R&B</label>
+
+
+
+				    	<h3><b>Rate the song</b></h3>    
+						<input type="radio" id="rating" name="rating" value="one">
+						<label for="html">1</label>
+						<input type="radio" id="rating" name="rating" value="two">
+						<label for="css">2</label>
+						<input type="radio" id="cheesecrust" name="rating" value="three">
+						<label for="javascript">3</label>
+						<input type="radio" id="glutenfree" name="rating" value="four">
+						<label for="javascript">4</label>
+						<input type="radio" id="glutenfree" name="rating" value="five">
+						<label for="javascript">5</label>
+
+
+						<form action="/action_page.php">
+ 						<h4><label for="question"><b>Where did you first find out about the song, if not from Apple Music?</b></label></h4>
+  						<select name="question" id="question">
+    					<option value="spotify">Spotify</option>
+    					<option value="ytmusic">Youtube Music</option>
+    					<option value="soundcloud">SoundCloud</option>
+    					<option value="playmusic">PlayMusic</option>
+  						</select>
+  						<br></br>
+  						<input type="submit" value="Submit Recco">
+						</form>	
+

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q1-Drill2A</title>
+
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+	<style type="text/css">
+				body {
+					font-family: "Nunito", sans-serif;
+  				font-optical-sizing: auto;
+  				font-weight: <weight>;
+  				font-style: normal;
+  			 background-image: url("https://img.freepik.com/free-vector/hand-drawn-pizza-pattern-background_23-2150905263.jpg");
+					background-size: cover;
+					background-repeat: no-repeat;*/
+					background-position: center;
+				}
+
+				 form {
+								 	background-color: orange;
+								 	width: 70%;
+								 	padding: 20px;
+								 	margin: auto
+								  border: 7px double #bd7f44;
+									border: 7px solid #b57e3f;
+									border-radius: 52px 52px 52px 52px;
+								-webkit-border-radius: 52px 52px 52px 52px;
+								-moz-border-radius: 52px 52px 52px 52px;
+								box-shadow: -2px 6px 29px 0px rgba(179,161,128,0.91);
+								-webkit-box-shadow: -2px 6px 29px 0px rgba(179,161,128,0.91);
+								-moz-box-shadow: -2px 6px 29px 0px rgba(179,161,128,0.91);
+								 }
+								 
+				input[type="submit"], [type="reset"]
+				{ 
+        width: 100px;
+        height: 2em;
+        background: white;
+        border: 1px solid #04699d;
+        border-radius: 4px;
+        color: orangered;
+        font-size: inherit;
+        flex: 0 1 8em;
+        margin: 0 auto;
+				 }
+
+			 </style>
+	  	 </head>
+			 <body>
+		    <form>
+
+							<header>
+					<h1>9-Ruby Bistro | Auntie Daphne's</h1>
+					</header>
+
+
+
+										<fieldset>
+											<legend>Your Info</legend>
+												  <label for="fullname">Full name:</label><br>
+												  <input type="fullname" name="fullname" placeholder="Enter your full name."><br>
+												  <label for="telephone">Telephone number:</label><br>
+												  <input type="text" name="telephone-num" placeholder="Put in your mobile number."><br>
+												  <label for="home address"> Home address:</label><br>
+												  <input type="text" name="homeaddr" placeholder= "Place your full address."><br>
+												  <label for="emailaddress">Email address:</label><br>
+												  <input type="text" name="email-addr" placeholder="Enter your email address."><br>
+												  <input type="submit" value="Submit">
+										</fieldset>
+									 <label for="deliveryinstructions">Delivery instructions:</label><br>
+									 <textarea name="deliveryinstructions" rows="11" cols="95" maxlength="400">
+Not more than 400 characters long.
+
+
+
+
+											</textarea>
+											</fieldset>
+											<h2>Customize your very own Dream Pizza! </h2>    
+											<fieldset>
+											<legend>Pizza Specs</legend>
+											<fieldset>
+											<legend>Crust (Pick one only)</legend>
+								 					<input type="radio" id="cwhite" name="the-crust" value="cwhite">
+								 					<label for="html">Classic white</label><br>
+													<input type="radio" id="multigrain" name="the-crust" value="multigrain">
+													<label for="css">Multigrain</label><br>
+													 <input type="radio" id="cheesecrust" name="the-crust" value="cheesecrust">
+													 <label for="javascript">Cheese-stuffed Crust</label><br>
+													<input type="radio" id="glutenfree" name="the-crust" value="glutenfree">
+													<label for="javascript">Gluten-free</label><br>
+										</fieldset>
+
+											<fieldset>
+											<legend>Toppings (Pick as many as you want!)</legend>
+													<input type="checkbox" id="topping1" name="topping1" value="redsauce">
+													 <label for="topping1">Red Sauce</label><br>
+													<input type="checkbox" id="topping2" name="topping2" value="whitesauce">
+													<label for="topping2"> White Sauce</label><br>
+													<input type="checkbox" id="topping3" name="topping3" value="mozzarella">
+													<label for="topping3"> Mozzarella Cheese</label><br>
+													<input type="checkbox" id="Pepperoni" name="topping4" value="pepperoni">
+													<label for="topping4">Pepperoni</label><br>
+													<input type="checkbox" id="Mushrooms" name="topping5" value="mushrooms">
+													 <label for="topping5"> Mushrooms</label><br>
+													<input type="checkbox" id="Peppers" name="topping6" value="peppers">
+													  <label for="topping6"> Pepperoni</label><br>
+													<input type="checkbox" id="Anchovies" name="topping7" value="anchovies">
+													 <label for="topping7">Anchovies</label><br>
+									 </fieldset>
+
+									 <fieldset>
+												<legend>Number of Pizzas</legend>
+														 <label for="quantity">How many pizzas:</label>
+														 <input type="number" id="quantity" name="quantity" min="1" max="50">
+													   <input type="submit" value="Bring me my pizza!">
+													   <input type="reset" value="Please try again.">
+												</fieldset>
+				</form>
